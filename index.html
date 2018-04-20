@@ -6,9 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	
-<meta charset="utf-8">
+	<meta charset="utf-8">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117912338-2"></script>
@@ -19,6 +17,21 @@
 
   gtag('config', 'UA-117912338-2');
   ga('send', 'pageview');
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 
 </head>
@@ -48,7 +61,7 @@
 
 <div id="banner">
 	<h1>La dernière part !</h1>
-	<a href="#youtube" class="btn btn-warning" target="_blank"> <p class="blabla">Pas de Punchline !</p> </a>
+	<a href="#youtube" class="btn btn-warning" target="_blank" _trackEvent(videos, play)> <p class="blabla">Pas de Punchline !</p> </a>
 	
 </div>
 
