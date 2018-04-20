@@ -1,0 +1,73 @@
+h1{
+	color: red;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'jua';
+}
+h2{
+	color: red;
+	font-size: 20px;
+	font-family: 'open sans';
+
+}
+body{
+	color: orange;
+	background-color: #F4F9B4
+}
+#logo{
+	width: 600px;
+}
+
+#banner{
+	background-image: url(http://lorempixel.com/1200/800/abstract);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	text-align: center;
+	color: red;
+}
+
+.features{
+	text-align: center;
+	color: pink;
+}
+
+#auchoix{
+	background-color: #99E9F2;
+	color: white;
+}
+.blabla{
+	font-size: 40px;
+	color:black;
+	font-family: 'East Sea Dokdo', cursive;
+}
+
+.features p{
+	color: orange;
+}
+
+.icon-perso{
+	font-size: 100px;
+}
+
+.icon-perso:hover{
+	color: red;
+}
+
+#facebook{
+	color: #D5072B;
+}
+
+
+.map{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
